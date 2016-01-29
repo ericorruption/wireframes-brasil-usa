@@ -1,0 +1,33 @@
+@import 'vendor/bootstrap';
+
+@import 'components/footer';
+@import 'components/titles';
+
+.img-responsive,
+.embed-responsive {
+     & + p {
+        margin-top: 1em;
+    }
+}
+
+@include media-breakpoint-down(xs) {
+    .navbar-brand {
+        float: none;
+    }
+
+    .navbar > .container {
+        padding: 0;
+    }
+}
+
+img {
+    max-width: 100%;
+
+    &.media-object {
+        max-width: none;
+    }
+}
+
+.btn--cta {
+    max-width: 18em;
+}

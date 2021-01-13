@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "git://github.com/twbs/bootstrap.git#v4.0.0-alpha",
-    "node-sass": "^3.4.1"
+    "node-sass": "^4.14.1"
   }
 }
